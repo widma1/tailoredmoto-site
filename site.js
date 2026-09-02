@@ -35,7 +35,7 @@ form.addEventListener('submit', async (e) => {
     });
     if (!res.ok) throw new Error();
     form.reset();
-    status.textContent = "Received — thank you. We'll be in touch shortly.";
+    status.textContent = "Received — thank you. You'll hear back within one business day with a firm quote.";
   } catch {
     status.textContent = "Something went wrong — please call or text us instead.";
   } finally {

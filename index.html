@@ -22,8 +22,9 @@
   "description": "Handlebar fitting and installation for Harley-Davidson motorcycles.",
   "url": "https://tailoredmoto.com",
   "email": "info@tailoredmoto.com",
+  "telephone": "+1-330-333-2758",
   "address": { "@type": "PostalAddress", "addressLocality": "Stow", "addressRegion": "OH", "addressCountry": "US" },
-  "areaServed": ["Stow OH", "Akron OH", "Cleveland OH", "Northeast Ohio"],
+  "areaServed": ["Stow OH", "Akron OH", "Cleveland OH", "Northeast Ohio", "Ohio"],
   "priceRange": "$$$"
 }
 </script>
@@ -42,9 +43,10 @@
     <span>Tailored <em>Moto</em></span>
   </a>
   <nav class="site-nav" id="nav">
-    <a href="#services">Services</a>
+    <a href="#services">The fittings</a>
     <a href="#process">Process</a>
-    <a href="#about">About</a>
+    <a href="#about">Your fitter</a>
+    <a class="nav-phone" href="sms:+13303332758">(330) 333-2758</a>
     <a href="#contact" class="btn btn-small">Book a fitting</a>
   </nav>
   <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav">
@@ -77,18 +79,21 @@
       <article class="card">
         <h3>The Swap</h3>
         <p class="price">from <strong>$339</strong></p>
-        <p>Your bars, professionally fitted. For setups where the factory cables and lines still reach. Controls aligned, fasteners torqued to spec, bar position set to you.</p>
+        <p class="desc">Your bars, professionally fitted. Controls aligned, fasteners torqued to spec, bar position set to you.</p>
+        <p class="fit-hint">This is you if the new bars sit close to stock height — roughly 2″ of rise or less over what's on the bike now.</p>
       </article>
       <article class="card card-featured">
         <p class="badge">Most requested</p>
         <h3>The Full Fit</h3>
-        <p class="price">from <strong>$949</strong></p>
-        <p>Taller or wider bars done right: extended cables, brake lines, and wiring — routed internally where the model allows. Fit consult included, so the pullback and rise suit the way you actually sit.</p>
+        <p class="price"><strong>$949–$1,300</strong></p>
+        <p class="desc">Taller or wider bars done right: extended cables, brake lines, and wiring — routed internally where the model allows. Fit consult included, so the pullback and rise suit the way you actually sit. Where the price lands depends on cable length, internal wiring, and model year — your quote is firm before we touch the bike.</p>
+        <p class="fit-hint">This is you if you're going noticeably taller — apes, minis, or anything past factory cable reach.</p>
       </article>
       <article class="card">
         <h3>The Concierge</h3>
         <p class="price">from <strong>$1,500</strong></p>
-        <p>Completely hands-off. We help you choose the bars, source the parts, and return the bike ready to ride. Ask about pickup and delivery.</p>
+        <p class="desc">Completely hands-off. We help you choose the bars, source the parts, and return the bike ready to ride. Ask about pickup and delivery.</p>
+        <p class="fit-hint">This is you if you'd rather hand over the keys and the decisions both.</p>
       </article>
     </div>
   </section>
@@ -123,10 +128,37 @@
     </div>
   </section>
 
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <h2><span class="rule"></span>The practical stuff</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>How long will you have the bike?</h3>
+        <p>Days, not weeks. You'll get a firm timeline with your quote, before you commit to anything.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Where does the work happen?</h3>
+        <p>Usually in Stow — you'll get the address and a drop-off time when you book. Too far? Ask about pickup and delivery, or we can come do the work at your place.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Is the work guaranteed?</h3>
+        <p>If anything we touched isn't right, bring it back and we'll make it right. No fine print.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do you only work on Harleys?</h3>
+        <p>Harleys are the specialty. Riding something else? Ask — if it's not work we can do to our standard, we'll tell you straight.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do I need to know which fitting I need?</h3>
+        <p>No. <a href="sms:+13303332758">Text a photo of your bike</a> and the bars you're picturing — we'll tell you which fit it is and quote it.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- CONTACT -->
   <section class="contact" id="contact">
     <h2><span class="rule"></span>Book a fitting</h2>
-    <p class="section-lede">Tell us about the bike. We'll be in touch shortly.</p>
+    <p class="section-lede">Tell us about the bike. You'll get a firm quote — not a sales call — within one business day. We take on a limited number of fittings each week, so getting in touch early gets you on the schedule fastest. Prefer to skip the form? <a class="link" href="sms:+13303332758">Text us at (330)&nbsp;333-2758</a>.</p>
     <div class="contact-cols">
       <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="8856f338-301b-41fc-84e8-43a204a1f734">
@@ -136,17 +168,27 @@
           <label>Name<input type="text" name="name" required autocomplete="name"></label>
           <label>Phone<input type="tel" name="phone" required autocomplete="tel"></label>
         </div>
-        <label>Bike (year & model)<input type="text" name="bike" placeholder="e.g. 2022 Street Glide" required></label>
+        <div class="field-row">
+          <label><span>Email <span class="optional">(optional)</span></span><input type="email" name="email" autocomplete="email"></label>
+          <label>Bike (year & model)<input type="text" name="bike" placeholder="e.g. 2022 Street Glide" required></label>
+        </div>
         <label>What are you picturing?<textarea name="message" rows="4" placeholder="Bars you have in mind, or what you want to change about your current setup"></textarea></label>
+        <p class="form-hint">Fastest answer: <a href="sms:+13303332758">text a photo of your bike</a> — a picture tells us most of what we need.</p>
         <div class="h-captcha" data-captcha="true" data-theme="dark"></div>
         <p class="form-status" role="status" aria-live="polite"></p>
         <button class="btn" type="submit">Request a quote</button>
+        <p class="form-note">What happens next: we reply within one business day with a firm quote and a plan. No payment is taken now.</p>
       </form>
     </div>
-    <p class="contact-note contact-note-center">Stow, Ohio — serving Akron, Cleveland, and Northeast Ohio.</p>
+    <p class="contact-note contact-note-center">Based in Stow, Ohio — serving Akron, Cleveland, and all of Northeast Ohio. Farther out? We can pick the bike up — or come do the work at your place. If the fit is worth it to you, distance won't be the problem.</p>
   </section>
 
 </main>
+
+<nav class="action-bar" aria-label="Quick contact">
+  <a class="btn btn-bar-ghost" href="sms:+13303332758">Text us</a>
+  <a class="btn" href="#contact">Book a fitting</a>
+</nav>
 
 <footer class="site-footer">
   <p>Tailored Moto LLC · Stow, Ohio</p>
