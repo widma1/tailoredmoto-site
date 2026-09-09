@@ -174,22 +174,23 @@ h2 .rule { display: inline-block; width: 48px; height: 1px; background: var(--br
 .steps p { color: #4c4842; font-size: 0.95rem; }
 
 /* ---------- about ---------- */
+.about-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 48px; align-items: start; }
+.about-photo { margin: 0; }
+.about-photo img { display: block; width: 100%; border-radius: 3px; }
 .about-body { max-width: 62ch; display: grid; gap: 18px; }
 .about-lede { font-family: var(--serif); font-size: 1.5rem; font-style: italic; color: var(--ink); }
 .about-body p { color: #4c4842; }
 
 /* ---------- gallery ---------- */
 .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
-.tile {
-  aspect-ratio: 4 / 3;
-  background:
-    radial-gradient(400px 200px at 50% 120%, rgba(176, 141, 87, 0.14), transparent 70%),
-    var(--ink-soft);
+.gallery-grid .shot { margin: 0; }
+.gallery-grid img {
+  display: block; width: 100%; height: 100%;
+  aspect-ratio: 3 / 4; object-fit: cover;
   border-radius: 3px;
-  display: flex; align-items: center; justify-content: center;
-  color: var(--chrome); font-size: 0.78rem; letter-spacing: 0.14em;
-  text-transform: uppercase; text-align: center; line-height: 1.9;
 }
+
+/* ---------- about ---------- */
 
 /* ---------- faq ---------- */
 .faq-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px 48px; }
@@ -256,7 +257,8 @@ label .optional { text-transform: none; letter-spacing: 0.02em; color: var(--chr
 /* ---------- responsive ---------- */
 @media (max-width: 860px) {
   section { padding: 72px 20px; }
-  .cards, .steps, .gallery-grid, .faq-list { grid-template-columns: 1fr; }
+  .cards, .steps, .faq-list, .about-grid { grid-template-columns: 1fr; }
+  .gallery-grid { grid-template-columns: 1fr; gap: 14px; }
   .steps { gap: 32px; }
 
   .nav-toggle {
