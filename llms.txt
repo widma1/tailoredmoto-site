@@ -1,0 +1,42 @@
+# Tailored Moto
+
+> White-glove handlebar fitting and installation for Harley-Davidson motorcycles, based in Stow, Ohio and serving Akron, Cleveland, and Northeast Ohio. Turnkey packages: bars fitted, cables and wiring routed internally where the model allows, every fastener torqued to factory spec, and the bike test-ridden before it comes back.
+
+Tailored Moto LLC is a fitting service, not a general repair shop. Riders bring the bike and the bars they are picturing; Tailored Moto handles fitment, sourcing (on request), routing, torque, and test riding. Quotes are firm before any work begins, and turnaround is days, not weeks.
+
+## Business details
+
+- Name: Tailored Moto LLC
+- Website: https://tailoredmoto.com
+- Phone / text: (330) 333-2758
+- Email: info@tailoredmoto.com
+- Location: Stow, Ohio, United States (address provided at booking)
+- Area served: Stow, Akron, Cleveland, and Northeast Ohio. Pickup and delivery or on-site work available on request.
+- Specialty: Harley-Davidson. Other makes considered case by case.
+- Founder and fitter: Vidmantas Steponavicius
+
+## Services and pricing
+
+- The Swap, from $339: bars close to stock height (roughly 2 inches of rise or less over current bars). Controls aligned, fasteners torqued to spec, bar position set to the rider.
+- The Full Fit, $949 to $1,300: taller or wider bars such as apes or minis, past factory cable reach. Extended cables, brake lines, and wiring, routed internally where the model allows. Fit consult included. Final price depends on cable length, internal wiring, and model year.
+- The Concierge, from $1,500: fully hands-off. Help choosing bars, parts sourcing, and the bike returned ready to ride. Pickup and delivery available.
+
+## Process
+
+1. Tell us the vision: a short call or text about the bike, the bars, and how you ride. You get a straight answer on fitment and a firm quote within one business day.
+2. We fit and dial it in: scheduled around you, finished to factory spec, then test-ridden.
+3. You ride.
+
+## Frequently asked questions
+
+- How long will you have the bike? Days, not weeks. A firm timeline comes with the quote.
+- Where does the work happen? Usually in Stow, Ohio. Pickup and delivery or on-site work can be arranged.
+- Is the work guaranteed? If anything touched is not right, bring it back and it will be made right.
+- Do you only work on Harleys? Harleys are the specialty. Other bikes are considered if the work can be done to standard.
+- Do I need to know which fitting I need? No. Text a photo of the bike and the bars you are picturing to (330) 333-2758 for a fitment answer and quote.
+
+## Pages
+
+- [Home](https://tailoredmoto.com/): services, pricing, process, gallery, FAQ, and booking form
+- [Sitemap](https://tailoredmoto.com/sitemap.xml)
+- [robots.txt](https://tailoredmoto.com/robots.txt)
