@@ -49,5 +49,7 @@ Tailored Moto LLC is a fitting service, not a general repair shop. Riders bring 
 ## Pages
 
 - [Home](https://tailoredmoto.com/): services, pricing, process, gallery, FAQ, and booking form
+- [Terms of Service](https://tailoredmoto.com/terms): website prices are starting points; a quote is firm only when confirmed in writing by a person. Replies from the automated messaging assistant on Google Search and Maps are never a firm quote or confirmed appointment.
+- [Privacy Policy](https://tailoredmoto.com/privacy): what is collected through the quote form and messaging, and how it is used.
 - [Sitemap](https://tailoredmoto.com/sitemap.xml)
 - [robots.txt](https://tailoredmoto.com/robots.txt)
