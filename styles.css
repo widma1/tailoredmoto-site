@@ -295,3 +295,14 @@ label .optional { text-transform: none; letter-spacing: 0.02em; color: var(--chr
   .hero { padding: 90px 20px 80px; }
   .trust-strip { gap: 14px; flex-direction: column; align-items: center; margin-top: 56px; }
 }
+
+/* ---------- legal pages ---------- */
+.legal { max-width: 720px; padding-top: 64px; }
+.legal .kicker a { color: var(--brass); text-decoration: none; }
+.legal h1 { font-size: clamp(2.4rem, 6vw, 3.6rem); font-weight: 500; margin-bottom: 8px; }
+.legal h1 em { color: var(--brass-bright); }
+.legal .meta { color: var(--chrome); margin-bottom: 40px; }
+.legal h2 { font-size: 1.35rem; margin: 36px 0 10px; display: block; }
+.legal p, .legal li { color: #4c4842; }
+.legal ul { padding-left: 20px; display: grid; gap: 8px; }
+.legal a { color: var(--brass); }
